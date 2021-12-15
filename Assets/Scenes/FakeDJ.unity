@@ -653,6 +653,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 05e4359364cf5e049a0c377ed3f18c73, type: 3}
+    - target: {fileID: 8503924072072385500, guid: 3cfe17345035f1d42af4fc753902a8c3, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -2845193674025906001, guid: 51a308d7520de3b46bf5e78d630cd17a, type: 2}
     - target: {fileID: 8503924072418841717, guid: 3cfe17345035f1d42af4fc753902a8c3, type: 3}
       propertyPath: m_SizeDelta.x
       value: 160
@@ -1017,7 +1021,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1483553867466434866, guid: 495faddb5e3c0c84f99fa7f94fe23ec7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 495faddb5e3c0c84f99fa7f94fe23ec7, type: 3}
 --- !u!224 &1763311564 stripped
 RectTransform:
